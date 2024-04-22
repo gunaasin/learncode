@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  max-width: 1280px;
+  background-color: #000000;
+  box-sizing: border-box;  
+
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+*{
+  scroll-behavior: smooth;
+}
