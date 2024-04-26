@@ -1,22 +1,20 @@
-import { Home } from "./component/Home"
-import { Links } from "./component/Links"
-import { Navbar } from "./component/Navbar"
-import { Progras } from "./component/Progras"
-import "./App.css"
-import { Fotter } from "./component/Fotter"
+
+import {  Routes, Route } from 'react-router-dom';
+import { Login } from "./pages/Login"; // Change to named import
+import { Register } from "./pages/Register"; // Change to named import
+import './index.css';
+import { Landing } from './pages/Landing';
+
 function App() {
   return (
-    <div className="app">
- <Navbar/>
-      <Home/>
-      <Links/>
-      <Progras/>
-            <Fotter/>
-    </div>
-
-     
-
-  )
+    <>
+      <Routes>
+        <Route path="/" element={<Landing/>} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;
