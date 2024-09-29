@@ -66,7 +66,7 @@ export const Login = () => {
 
   return (
     <>
-      <Container maxWidth="xs">
+      <Container maxWidth="xs"   >
         <CssBaseline />
         <Box
           sx={{
@@ -79,7 +79,7 @@ export const Login = () => {
             justifyContent: "center",
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: "dark" }}>
+          <Avatar sx={{ m: 1,  bgcolor: "#030305" }}>
             <LockOutlined />
           </Avatar>
           <Typography variant="h5">Login</Typography>
@@ -124,7 +124,6 @@ export const Login = () => {
               </Grid>
             </Grid>
           </Box>
-          {/* Error message */}
           {loginError && (
             <Typography variant="body1" sx={{ color: "red", mt: 2 }}>
               {loginError}
@@ -144,7 +143,7 @@ export const Login = () => {
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
-            bgcolor: "white",
+            bgcolor: "#030305",
             boxShadow: 24,
             p: 4,
           }}

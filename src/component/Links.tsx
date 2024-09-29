@@ -44,7 +44,7 @@ export const Links = () => {
         <div className="card">
           <div className="side"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/102308/card_backside.jpg" alt="" /></div>
           <div className="side back">
-            <a href="https://newpython-delta.vercel.app/"><img className="laimg im1" src="python.png" alt="" /></a>
+            <a href="https://python-game-based-learning.vercel.app/"><img className="laimg im1" src="python.png" alt="" /></a>
             <img className="la" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/102308/card_backside.jpg" alt="" />
           </div>
         </div>

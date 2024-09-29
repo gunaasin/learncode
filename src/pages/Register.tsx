@@ -43,7 +43,9 @@ import {
     return (
       <>
         <Container maxWidth="xs">
+        
           <CssBaseline />
+          
           <Box
             sx={{
               mt: 20,
@@ -53,8 +55,9 @@ import {
               flexDirection: "column",
               alignItems: "center",
             }}
+             
           >
-            <Avatar sx={{ m: 1, bgcolor: "primary.light" }}>
+            <Avatar sx={{ m: 1, bgcolor: "#030305"}}>
               <LockOutlined />
             </Avatar>
             <Typography variant="h5">Register</Typography>
